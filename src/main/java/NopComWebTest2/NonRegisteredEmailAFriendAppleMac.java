@@ -41,7 +41,7 @@ public class NonRegisteredEmailAFriendAppleMac extends Utils {
 
     public void verifyUnregisteredUserWillSeeErrorMessageForEmailAFriend()
     {
-        assertTextMessage("Email sent not successful",expected,_errorMessageEmailFriend);
+        assertTextMessage(expected,_errorMessageEmailFriend);
     }
 
 }

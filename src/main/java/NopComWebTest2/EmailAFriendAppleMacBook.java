@@ -44,7 +44,7 @@ public class EmailAFriendAppleMacBook extends Utils {
 
     public void verifyUserSeeEmailAFriendSentMessage()
     {
-        assertTextMessage("sent message successful",expected,_emailSendMessage);
+        assertTextMessage(expected,_emailSendMessage);
     }
 
 

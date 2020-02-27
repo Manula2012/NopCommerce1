@@ -1,7 +1,10 @@
 package NopComWebTest2;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
@@ -47,15 +50,33 @@ public class Utils extends BasePage  {
 
     }
 
-    public static void assertTextMessage(String message, String expected,By by)
+    public static void assertTextMessage(String expected,By by)
     {
         String actual = getTextFromElement(by);
+        Assert.assertEquals(actual,expected);
     }
     public static void waitForClickable(By by, int time)
     {
         WebDriverWait wait = new WebDriverWait(driver, time);
         wait.until(ExpectedConditions.elementToBeClickable(by));
     }
+   public void selectElementByIndex(By by,int index)
+   {
+       Select select = new Select(driver.findElement(by));
+       select.selectByIndex(index);
+   }
+   public void selectElementByVisibleText(By by,String text)
+   {
+       Select select = new Select(driver.findElement(by));
+       select.selectByVisibleText(text);
+   }
 
+   public void scrollAndClick(By by)
+   {
+       WebElement element = driver.findElement(by);
+       ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);",element);
+       element.click();
+
+   }
 
 }

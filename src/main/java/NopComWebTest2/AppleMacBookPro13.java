@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 public class AppleMacBookPro13 extends Utils
 {
 
-    private By _emailAFriend = By.xpath("//input[@value='Email a friend");
+    private By _emailAFriend = By.xpath("//div[@class='email-a-friend']");
 
     public void verifyUserIsOnAppleMacBookPage()
     {

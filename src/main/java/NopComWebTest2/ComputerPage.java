@@ -4,17 +4,22 @@ import org.openqa.selenium.By;
 
 public class ComputerPage extends Utils {
 
-    private By _computer = By.xpath("//ul[@class='top-menu mobile']/li[1]");
+    private By _desktops = By.xpath("//img[@alt='Picture for category Desktops']");
 
-    public void verifyUserIsOnComputerPage()
-    {
+
+    public void verifyUserIsOnComputerPage() {
         assertURL("computers");
     }
 
-    public void clickOnComputer()
-    {
-        clickOnElement(_computer);
+    public void clickOnDesktops() {
+        clickOnElement(_desktops);
     }
 
-
+    public void waitForDesktops() {
+        waitForVisible(_desktops, 30);
+    }
+    public void scrollAndClickOnDesktop()
+    {
+        scrollAndClick(_desktops);
+    }
 }

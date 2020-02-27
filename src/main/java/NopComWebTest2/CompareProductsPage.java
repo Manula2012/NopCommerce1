@@ -9,7 +9,7 @@ public class CompareProductsPage extends Utils {
 
     public void varifyUserSeeCompareProductsMessage()
     { assertURL("compareproducts");
-      assertTextMessage("compare products message successful",expected,_compareProductsMessage);
+      assertTextMessage(expected,_compareProductsMessage);
 
     }
 

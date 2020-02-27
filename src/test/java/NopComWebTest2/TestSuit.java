@@ -1,7 +1,9 @@
 package NopComWebTest2;
 
-import org.junit.runner.Computer;
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
+
+import java.awt.*;
 
 public class TestSuit extends BaseTest {
     HomePage homepage = new HomePage();
@@ -12,6 +14,16 @@ public class TestSuit extends BaseTest {
     EmailAFriendAppleMacBook emailAFriendAppleMacBook = new EmailAFriendAppleMacBook();
     NonRegisteredEmailAFriendAppleMac nonRegisteredEmailAFriendAppleMac= new NonRegisteredEmailAFriendAppleMac();
     ComputerPage computerPage = new ComputerPage();
+    DesktopsPage desktopsPage = new DesktopsPage();
+    ShoppingCartPage shoppingCartPage = new ShoppingCartPage();
+    CheckoutAsGuest checkoutAsGuest = new CheckoutAsGuest();
+    OnePageCheckout onePageCheckout = new OnePageCheckout();
+    NewsPage newsPage = new NewsPage();
+    AboutNopCommerce aboutNopCommerce = new AboutNopCommerce();
+    CheckoutCompletedPage checkoutCompletedPage = new CheckoutCompletedPage();
+
+
+
 
 
     @Test
@@ -23,8 +35,8 @@ public class TestSuit extends BaseTest {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        registrationPage.verifyFirstNameIsVisible();
-        registrationPage.waitUntilDisplay();
+       // registrationPage.verifyFirstNameIsVisible();
+       // registrationPage.waitUntilDisplayRegisterButton();
         registrationPage.userEntersRegistrationDetails();
         registrationResultPage.verifyUserSeeRegistrationSuccessMessage();
 
@@ -36,6 +48,11 @@ public class TestSuit extends BaseTest {
     public void userShouldAbleToCompareSuccessfully() {
 
         homepage.clickOnAddToCompareListAppleMacBook();
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         homepage.clickOnAddToCompareListHtcOneM8();
         homepage.clickOnProductComparison();
         //homepage.waitForDisplayComparePage();
@@ -53,11 +70,10 @@ public class TestSuit extends BaseTest {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        registrationPage.verifyFirstNameIsVisible();
-        registrationPage.waitUntilDisplay();
+
         registrationPage.userEntersRegistrationDetails();
         registrationResultPage.verifyUserSeeRegistrationSuccessMessage();
-        emailAFriendAppleMacBook.clickOnContinue();
+        registrationResultPage.clickOnContinueRegistrationResultPage();
         try {
             Thread.sleep(3000);
         } catch (InterruptedException e) {
@@ -97,9 +113,680 @@ public class TestSuit extends BaseTest {
     @Test
     public void userShouldAbleToSeePriceSortedHighToLow()
     {
-        computerPage.clickOnComputer();
+        homepage.clickOnComputer();
+        computerPage.verifyUserIsOnComputerPage();
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace(); }
+        computerPage.clickOnDesktops();
+        desktopsPage.clickOnSortBy();
+        desktopsPage.selectHighToLowPrice();
 
+    }
+     @Test
+     public void userShouldAbleToCheckOutSuccessfully()
+      //click on computer
+     {
+         homepage.clickOnComputer();
+         try {
+             Thread.sleep(3000);
+         } catch (InterruptedException e) {
+             e.printStackTrace();
+         }
+         //click on desktops
+         computerPage.clickOnDesktops();
+         //click on add to cart button of Digital storm
+         desktopsPage.scrollAndClickAddToCartDigitalStorm();
+         //click on shopping cart
+         desktopsPage.clickOnShoppingCart();
+         //click on Terms and Conditions
+         shoppingCartPage.scrollAndClickTermsOfService();
+         //click on checkout
+         shoppingCartPage.clickOnCheckOut();
+         //click on checkout as guest
+         checkoutAsGuest.clickOnCheckoutAsGuest();
+         //enter guest details
+         onePageCheckout.guestEnterDetails();
+         //click on continue
+         onePageCheckout.clickOnContinueShippingMethod();
+         //click on credit card payment option
+         onePageCheckout.clickOnCreditCardPaymentOption();
+         //click on continue payment option
+         onePageCheckout.clickOnContinuePaymentOption();
+         //enter card details
+         onePageCheckout.enterCardDetails();
+         //click on continue
+         onePageCheckout.clickOnContinueCardDetails();
+         //click on confirm
+         onePageCheckout.clickOnConfirm();
+         //verify checkout completed message
+         checkoutCompletedPage.verifyUserSeeCheckoutCompletedMessage();
+
+     }
+    @Test
+
+      public void guestUserShouldAbleToAddNewCommentOnNopCommerce()
+         {    //click on news
+             homepage.clickOnNews();
+             try {
+                 Thread.sleep(3000);
+             } catch (InterruptedException e) {
+                 e.printStackTrace();
+             }
+             //click on details
+             newsPage.scrollAndClickOnDetails();
+             // enter comment title
+             aboutNopCommerce.enterCommentTitle();
+             //enter comment
+             aboutNopCommerce.enterComment();
+             //click on new comment
+             aboutNopCommerce.clickOnNewComment();
+             //verify comment added message visible
+             aboutNopCommerce.verifyUserAbleToSeeCommentAddedMessage();
+
+         }
+
+
+         @Test
+         public void userShouldAbleToChangeCurrencySuccessfully()
+         {   //change currency to Euro from drop down arrow
+             homepage.changeCurrencyToEuro();
+             //verify euro currency is visible
+             homepage.verifyUserAbleToSeeEuroCurrency();
+
+         }
+
+         @Test
+        public void verifyAllTheProductsHaveAddToCartButton()
+         {   //verify add to cart button is visible for all the products
+             homepage.verifyAddToCartButton();
+
+         }
     }
 
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,7 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82b646fc-c225-415c-84b3-cdc47817928a" name="Default Changelist" comment="" />
+    <list default="true" id="82b646fc-c225-415c-84b3-cdc47817928a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NopComWebTest2/AboutNopCommerce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NopComWebTest2/CheckoutAsGuest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NopComWebTest2/CheckoutCompletedPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NopComWebTest2/DesktopsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NopComWebTest2/LoadProp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NopComWebTest2/NewsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NopComWebTest2/OnePageCheckout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NopComWebTest2/ShoppingCartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/BrowserDrivers/IEDriverServer.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/BrowserDrivers/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestCases/testconfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/NopCommerceWebTest2.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/NopComWebTest2/AboutNopCommerce.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/NopComWebTest2/CheckoutAsGuest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/NopComWebTest2/CheckoutCompletedPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/NopComWebTest2/DesktopsPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/NopComWebTest2/LoadProp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/NopComWebTest2/NewsPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/NopComWebTest2/OnePageCheckout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/NopComWebTest2/ShoppingCartPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/BrowserDrivers/IEDriverServer.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/BrowserDrivers/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/TestCases/NopCommerce TestCases.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/TestCases/testconfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NopComWebTest2/AppleMacBookPro13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NopComWebTest2/AppleMacBookPro13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NopComWebTest2/BrowserSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NopComWebTest2/BrowserSelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NopComWebTest2/CompareProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NopComWebTest2/CompareProductsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NopComWebTest2/ComputerPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NopComWebTest2/ComputerPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NopComWebTest2/EmailAFriendAppleMacBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NopComWebTest2/EmailAFriendAppleMacBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NopComWebTest2/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NopComWebTest2/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NopComWebTest2/NonRegisteredEmailAFriendAppleMac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NopComWebTest2/NonRegisteredEmailAFriendAppleMac.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NopComWebTest2/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NopComWebTest2/RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NopComWebTest2/RegistrationResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NopComWebTest2/RegistrationResultPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NopComWebTest2/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NopComWebTest2/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NopComWebTest2/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NopComWebTest2/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NopComWebTest2/TestSuit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NopComWebTest2/TestSuit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestCases/NopCommerce TestCases.xls" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestCases/NopCommerce TestCases.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NopComWebTest2/AppleMacBookPro13.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NopComWebTest2/AppleMacBookPro13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NopComWebTest2/BrowserSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NopComWebTest2/BrowserSelector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NopComWebTest2/CompareProductsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NopComWebTest2/CompareProductsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NopComWebTest2/ComputerPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NopComWebTest2/ComputerPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NopComWebTest2/EmailAFriendAppleMacBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NopComWebTest2/EmailAFriendAppleMacBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NopComWebTest2/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NopComWebTest2/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NopComWebTest2/NonRegisteredEmailAFriendAppleMac.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NopComWebTest2/NonRegisteredEmailAFriendAppleMac.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NopComWebTest2/RegistrationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NopComWebTest2/RegistrationPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NopComWebTest2/RegistrationResultPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NopComWebTest2/RegistrationResultPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NopComWebTest2/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NopComWebTest2/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/NopComWebTest2/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/NopComWebTest2/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/NopComWebTest2/TestSuit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/NopComWebTest2/TestSuit.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +68,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +79,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1XuY2i87OaFbZqCOAr71jgC8aCD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,7 +88,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/TestCases" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -43,8 +105,8 @@
       <recent name="C:\Users\Admin\IdeaProjects\NopCommerceWebTest2\src\test\Resources\BrowserDrivers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestSuit.userShouldAbleToRegisterSuccessfully">
-    <configuration name="TestSuit" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestSuit.guestUserShouldAbleToAddNewCommentOnNopCommerce">
+    <configuration name="TestSuit.guestUserShouldAbleToAddNewCommentOnNopCommerce" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NopCommerceWebTest2" />
       <extension name="coverage">
         <pattern>
@@ -54,24 +116,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="NopComWebTest2" />
       <option name="MAIN_CLASS_NAME" value="NopComWebTest2.TestSuit" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSuit.registeredUserShouldAbleToEmailAFriendSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="NopCommerceWebTest2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="NopComWebTest2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="NopComWebTest2" />
-      <option name="MAIN_CLASS_NAME" value="NopComWebTest2.TestSuit" />
-      <option name="METHOD_NAME" value="registeredUserShouldAbleToEmailAFriendSuccessfully" />
+      <option name="METHOD_NAME" value="guestUserShouldAbleToAddNewCommentOnNopCommerce" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -79,7 +124,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuit.unregisteredUserWillSeeErrorMessage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSuit.userShouldAbleToChangeCurrencySuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NopCommerceWebTest2" />
       <extension name="coverage">
         <pattern>
@@ -89,7 +134,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="NopComWebTest2" />
       <option name="MAIN_CLASS_NAME" value="NopComWebTest2.TestSuit" />
-      <option name="METHOD_NAME" value="unregisteredUserWillSeeErrorMessage" />
+      <option name="METHOD_NAME" value="userShouldAbleToChangeCurrencySuccessfully" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -97,7 +142,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuit.userShouldAbleToRegisterSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSuit.userShouldAbleToCheckOutSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NopCommerceWebTest2" />
       <extension name="coverage">
         <pattern>
@@ -107,7 +152,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="NopComWebTest2" />
       <option name="MAIN_CLASS_NAME" value="NopComWebTest2.TestSuit" />
-      <option name="METHOD_NAME" value="userShouldAbleToRegisterSuccessfully" />
+      <option name="METHOD_NAME" value="userShouldAbleToCheckOutSuccessfully" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -133,13 +178,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSuit.verifyAllTheProductsHaveAddToCartButton" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NopCommerceWebTest2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NopComWebTest2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="NopComWebTest2" />
+      <option name="MAIN_CLASS_NAME" value="NopComWebTest2.TestSuit" />
+      <option name="METHOD_NAME" value="verifyAllTheProductsHaveAddToCartButton" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestSuit.userShouldAbleToRegisterSuccessfully" />
+        <item itemvalue="TestNG.TestSuit.guestUserShouldAbleToAddNewCommentOnNopCommerce" />
+        <item itemvalue="TestNG.TestSuit.userShouldAbleToCheckOutSuccessfully" />
+        <item itemvalue="TestNG.TestSuit.verifyAllTheProductsHaveAddToCartButton" />
+        <item itemvalue="TestNG.TestSuit.userShouldAbleToChangeCurrencySuccessfully" />
         <item itemvalue="TestNG.TestSuit.userShouldAbleToSeePriceSortedHighToLow" />
-        <item itemvalue="TestNG.TestSuit" />
-        <item itemvalue="TestNG.TestSuit.unregisteredUserWillSeeErrorMessage" />
-        <item itemvalue="TestNG.TestSuit.registeredUserShouldAbleToEmailAFriendSuccessfully" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +219,7 @@
     </option>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\Admin\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -168,54 +231,102 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="4 more features tested" />
+    <option name="LAST_COMMIT_MESSAGE" value="4 more features tested" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="479" y="223" width="408" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582144479963">
+    <state x="275" y="22" key="#Inspections" timestamp="1582475402397">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="479" y="223" width="408" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1582144479963" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1582154578863">
+    <state x="275" y="22" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1582475402397" />
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1582749281501">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582154578863" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1582154578863">
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1582749281501" />
+    <state x="479" y="223" width="408" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582669361491">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582154578863" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1582154578863">
+    <state x="479" y="223" width="408" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1582669361491" />
+    <state x="245" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582554889170">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582154578863" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1582154578863">
+    <state x="245" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1582554889170" />
+    <state x="437" y="79" key="DetectedRootsChooserDialog" timestamp="1582299897216">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582154578863" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1582115074718">
+    <state x="437" y="79" key="DetectedRootsChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1582299897216" />
+    <state x="389" y="105" key="FileChooserDialogImpl" timestamp="1582761816674">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582115074718" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1582115074717">
+    <state x="389" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582761816674" />
+    <state x="521" y="257" key="Github.ShareDialog" timestamp="1582761580426">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1582115074717" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1582115074717">
+    <state x="521" y="257" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1582761580426" />
+    <state width="1306" height="173" key="GridCell.Tab.0.bottom" timestamp="1582759966295">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1582115074717" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1582115074717">
+    <state width="1306" height="173" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582759966295" />
+    <state width="1306" height="173" key="GridCell.Tab.0.center" timestamp="1582759966295">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1582115074717" />
-    <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1581897850764">
+    <state width="1306" height="173" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582759966295" />
+    <state width="1306" height="173" key="GridCell.Tab.0.left" timestamp="1582759966295">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="213" y="18" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1581897850764" />
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1582126103353">
+    <state width="1306" height="173" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582759966295" />
+    <state width="1306" height="173" key="GridCell.Tab.0.right" timestamp="1582759966295">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582126103353" />
+    <state width="1306" height="173" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582759966295" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1582158166136">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582158166136" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1582158166136">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1582158166136" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1582158166136">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1582158166136" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1582158166136">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1582158166136" />
+    <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1582474405552">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="18" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1582474405552" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1582299900173">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582299900173" />
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1582744399493">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582744399493" />
+    <state x="314" y="66" width="737" height="596" key="find.popup" timestamp="1582556360393">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="314" y="66" width="737" height="596" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1582556360393" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1582674364869">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1582674364869" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1582071210966">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1582071210966" />
+    <state x="513" y="154" key="svn.repositoryBrowser" timestamp="1582761860329">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="513" y="154" key="svn.repositoryBrowser/0.0.1366.728@0.0.1366.728" timestamp="1582761860329" />
+    <state x="454" y="138" key="svn4idea.import.options" timestamp="1582761851329">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="454" y="138" key="svn4idea.import.options/0.0.1366.728@0.0.1366.728" timestamp="1582761851329" />
   </component>
 </project>
