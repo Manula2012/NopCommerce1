@@ -15,6 +15,7 @@ public class AppleMacBookPro13 extends Utils
     public void clickOnEmailAFriendButton()
     {
         clickOnElement(_emailAFriend);
+        timeDelay(2);
     }
 
 

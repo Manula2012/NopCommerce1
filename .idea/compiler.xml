@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="NopCommerce1" />
         <module name="NopCommerceWebTest2" />
       </profile>
     </annotationProcessing>

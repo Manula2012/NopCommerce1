@@ -23,6 +23,7 @@ public class RegistrationPage extends Utils {
 
     public void verifyUserIsOnRegisterPage() {
         assertURL("register");
+        timeDelay(2);
     }
 
     public void userEntersRegistrationDetails() {
@@ -31,9 +32,16 @@ public class RegistrationPage extends Utils {
         sendText(_email,email);
         sendText(_password,password);
         sendText(_confirmPassword, confirmPassword);
+
+
+    }
+
+    public void clickOnRegisterButton()
+    {
         clickOnElement(_registerButton);
 
     }
+
 }
 
 

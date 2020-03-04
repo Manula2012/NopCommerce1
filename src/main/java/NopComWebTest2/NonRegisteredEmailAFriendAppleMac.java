@@ -37,6 +37,7 @@ public class NonRegisteredEmailAFriendAppleMac extends Utils {
         sendText(_yourEmail,yourEmail);
         sendText(_personalMessage,personalMessage);
         clickOnElement(_sendEmail);
+        timeDelay(2);
     }
 
     public void verifyUnregisteredUserWillSeeErrorMessageForEmailAFriend()

@@ -16,5 +16,6 @@ public class RegistrationResultPage extends Utils {
     public void clickOnContinueRegistrationResultPage()
     {
         clickOnElement(_continue);
+        timeDelay(2);
     }
 }
