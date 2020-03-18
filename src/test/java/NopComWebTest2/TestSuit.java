@@ -2,6 +2,7 @@ package NopComWebTest2;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.awt.*;
@@ -24,6 +25,7 @@ public class TestSuit extends BaseTest {
     NewsPage newsPage = new NewsPage();
     AboutNopCommerce aboutNopCommerce = new AboutNopCommerce();
     CheckoutCompletedPage checkoutCompletedPage = new CheckoutCompletedPage();
+    SubCategoryPage subCategoryPage = new SubCategoryPage();
 
 
     @Test
@@ -165,25 +167,60 @@ public class TestSuit extends BaseTest {
         List<WebElement> productPrice = driver.findElements(By.xpath("//div[@class='prices']/span"));
         ArrayList<String> allProductPrices = new ArrayList<>();
         for (WebElement we : productPrice) {
-            allProductPrices.add(we.getText().replaceAll("[$,]", "").replaceAll("[,]", ""));}
-            System.out.println(allProductPrices);
-            //String s;
-            //s = allProductPrices.get(0);
-            //System.out.println(s);
-            for (int i = 0; i < allProductPrices.size(); i++) {
-               // allProductPrices.get(i);
-                String s;
-                s = allProductPrices.get(i);
-                float f = Float.parseFloat(s);
-                System.out.println(f);}
+            allProductPrices.add(we.getText().replaceAll("[$,]", "").replaceAll("[,]", ""));
+        }
+        System.out.println(allProductPrices);
+        //String s;
+        //s = allProductPrices.get(0);
+        //System.out.println(s);
+        for (int i = 0; i < allProductPrices.size(); i++) {
+            // allProductPrices.get(i);
+            String strPrice1;
+            strPrice1 = allProductPrices.get(i);
+            float fPrice1 = Float.parseFloat(strPrice1);
+            System.out.println(fPrice1);
+            if (i < allProductPrices.size() - 1) {
+                String strPrice2;
+                strPrice2 = allProductPrices.get(i + 1);
+                float fPrice2 = Float.parseFloat(strPrice2);
+                if (fPrice1 >= fPrice2) {
+                    boolean highToLow = true;
 
+                } else {
+                    boolean highToLow = false;
 
+                }
 
+            }
+        }
+        Assert.assertTrue(true, "not sorted in high to low");
 
+    }
 
+    @Test
+
+    public void alertHandling()
+    {
+        //clickOnElement(By.xpath("//input[@class='button-1 search-box-button']"));
+        //driver.switchTo().alert().accept();
+        driver.getWindowHandles();
+    }
+
+    @Test
+
+    public void category()
+    {
+        //homepage.mouseHoverOnCategory();
+        subCategoryPage.clickOnSubCategory("Desktops");
 
     }
 }
+
+
+
+
+
+
 
 
 

@@ -1,6 +1,8 @@
 package NopComWebTest2;
 
 import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
@@ -23,6 +25,9 @@ public class HomePage extends Utils {
     private By _priceAppleMacBook = By.xpath("//div[@class='page-body']/div[4]/div[2]/div[2]/div/div[2]/div[3]/div/span");
     private By _homePageMessage = By.xpath("//div[@class='topic-block-title']/h2");
     private String expected = "Welcome to our store";
+    // private static WebElement computer = driver.findElement( By.linkText("Computers"));
+    LoadProp loadProp = new LoadProp();
+    private  String category = "Computer";
 
 
     public void verifyUserIsInHomePage() {
@@ -94,11 +99,29 @@ public class HomePage extends Utils {
             System.out.println(allProductPrices);
 
 
+        }
+    }
 
+        public void clickOnCategoryLinks(String category)
+        {
+            driver.findElement(By.linkText(category)).click();
         }
 
+
+
+    public void mouseHoverOnCategory(String category)
+
+    {
+        Actions builder = new Actions(driver);
+        WebElement categoryName = driver.findElement(By.linkText(category));
+        Action hover = builder.moveToElement(categoryName).build();
+        hover.perform();
+
     }
+
+
 }
+
 
 
 

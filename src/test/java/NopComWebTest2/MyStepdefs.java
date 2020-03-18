@@ -21,6 +21,7 @@ public class MyStepdefs {
     CheckoutCompletedPage checkoutCompletedPage = new CheckoutCompletedPage();
     NewsPage newsPage = new NewsPage();
     AboutNopCommerce aboutNopCommerce = new AboutNopCommerce();
+    SubCategoryPage subCategoryPage = new SubCategoryPage();
 
 
 
@@ -208,5 +209,33 @@ public class MyStepdefs {
 
     @Then("user should be able to see products sorted in price descending order")
     public void userShouldBeAbleToSeeProductsSortedInPriceDescendingOrder() {
+    }
+
+    @When("user clicks on {string} link from top menu")
+    public void user_clicks_om_link_from_top_menu(String category) {
+
+        homePage.clickOnCategoryLinks(category);
+
+    }
+
+    @Then("user should able to navigate to {string} successfully")
+    public void user_should_able_to_navigate_to_successfully(String related_category_page) {
+        Utils.assertURL(related_category_page);
+
+    }
+
+
+    @When("user hovers on {string} and click on {string}")
+    public void userHoversOnAndClickOn(String arg0, String arg1)
+    {
+        homePage.mouseHoverOnCategory("Computers");
+        subCategoryPage.clickOnSubCategory("Desktops");
+    }
+
+
+    @Then("user should be able to navigate to {string} page")
+    public void userShouldBeAbleToNavigateToPage(String arg0)
+    {
+        subCategoryPage.verifyUserIsOnSubCategoryPage("desktops");
     }
 }
