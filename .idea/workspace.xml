@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82b646fc-c225-415c-84b3-cdc47817928a" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/test/resources/features/categories.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/features/subcategory.feature" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+>>>>>>> origin/master
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/NopComWebTest2/BrowserSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NopComWebTest2/BrowserSelector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/NopComWebTest2/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NopComWebTest2/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/NopComWebTest2/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NopComWebTest2/Utils.java" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/test/java/NopComWebTest2/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NopComWebTest2/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/NopComWebTest2/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NopComWebTest2/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/NopComWebTest2/MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NopComWebTest2/MyStepdefs.java" afterDir="false" />
@@ -17,16 +22,52 @@
       <change beforePath="$PROJECT_DIR$/src/test/resources/TestCases/NopCommerce TestCases.xls" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestCases/NopCommerce TestCases.xls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/TestCases/testconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestCases/testconfig.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Destination/embedded0.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/Destination/embedded0.png" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/test/java/NopComWebTest2/Hooks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NopComWebTest2/MyStepdefs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NopComWebTest2/RunTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NopComWebTest2/TestSuit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NopComWebTest2/TestSuit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestCases/NopCommerce TestCases.xls" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestCases/NopCommerce TestCases.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestCases/testconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestCases/testconfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/addtocart.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/changecurrency.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/checkout.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/compare.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/emailafriend.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/guestcomment.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/noemailafriend.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/pricesort.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/registration.feature" beforeDir="false" />
+>>>>>>> origin/master
       <change beforePath="$PROJECT_DIR$/target/Destination/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/Destination/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/NopComWebTest2/BrowserSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NopComWebTest2/BrowserSelector.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/NopComWebTest2/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NopComWebTest2/HomePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/NopComWebTest2/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NopComWebTest2/Utils.class" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/target/test-classes/NopComWebTest2/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/NopComWebTest2/BaseTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/NopComWebTest2/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/NopComWebTest2/Hooks.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/NopComWebTest2/MyStepdefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/NopComWebTest2/MyStepdefs.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/NopComWebTest2/RunTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/NopComWebTest2/RunTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/NopComWebTest2/TestSuit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/NopComWebTest2/TestSuit.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/testconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestCases/testconfig.properties" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/NopCommerce1.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/NopComWebTest2/Hooks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/NopComWebTest2/MyStepdefs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/NopComWebTest2/RunTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/NopComWebTest2/TestSuit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/NopComWebTest2/TestSuit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/NopCommerce TestCases.xls" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestCases/NopCommerce TestCases.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/testconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestCases/testconfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/addtocart.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/changecurrency.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/checkout.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/compare.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/emailafriend.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/guestcomment.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/noemailafriend.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/pricesort.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/registration.feature" beforeDir="false" />
+>>>>>>> origin/master
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,25 +108,34 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../NopCommerce1 - Copy (2)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+=======
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+>>>>>>> origin/master
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="NopComWebTest2" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\IdeaProjects\NopCommerceWebTest2\src\test\Resources\BrowserDrivers" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\IdeaProjects\NopCommerceWebTest2\src\test\resources\TestCases" />
       <recent name="C:\Users\Admin\IdeaProjects\NopCommerceWebTest2\src\test\resources\BrowserDrivers" />
       <recent name="C:\Users\Admin\IdeaProjects\NopCommerceWebTest2\src\test\Resources\BrowserDrivers" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Admin\IdeaProjects\NopCommerceWebTest2\src\test\Resources\BrowserDrivers" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="NopComWebTest2" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="JUnit.RunTest">
     <configuration name="Scenario: User can navigate to correct category page," type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
@@ -96,18 +146,37 @@
       <option name="NAME_FILTER" value="^User can navigate to correct category page\,$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User can navigate to correct category page\,$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: User can navigate to correct category page," />
+=======
+  <component name="RunManager" selected="TestNG.TestSuit.userShouldAbleToRegisterSuccessfully">
+    <configuration name="TestSuit.registeredUserShouldAbleToEmailAFriendSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NopCommerce1 - Copy (2)" />
+>>>>>>> origin/master
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+<<<<<<< HEAD
+=======
+      <option name="PACKAGE_NAME" value="NopComWebTest2" />
+      <option name="MAIN_CLASS_NAME" value="NopComWebTest2.TestSuit" />
+      <option name="METHOD_NAME" value="registeredUserShouldAbleToEmailAFriendSuccessfully" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+>>>>>>> origin/master
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="RunTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="NopCommerce1" />
+=======
+    <configuration name="TestSuit.userShouldAbleToCheckOutSuccessfully (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NopCommerce1 - Copy (2)" />
+>>>>>>> origin/master
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="NopComWebTest2.*" />
@@ -115,32 +184,93 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="NopComWebTest2" />
+<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="NopComWebTest2.RunTest" />
       <option name="TEST_OBJECT" value="class" />
+=======
+      <option name="MAIN_CLASS_NAME" value="NopComWebTest2.TestSuit" />
+      <option name="METHOD_NAME" value="userShouldAbleToCheckOutSuccessfully" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+>>>>>>> origin/master
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="TestSuit.alertHandling" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NopCommerce1" />
+=======
+    <configuration name="TestSuit.userShouldAbleToCompareSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NopCommerce1 - Copy (2)" />
+>>>>>>> origin/master
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="NopComWebTest2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="NopComWebTest2" />
       <option name="MAIN_CLASS_NAME" value="NopComWebTest2.TestSuit" />
+<<<<<<< HEAD
       <option name="METHOD_NAME" value="alertHandling" />
+=======
+      <option name="METHOD_NAME" value="userShouldAbleToCompareSuccessfully" />
+      <option name="GROUP_NAME" value="" />
+>>>>>>> origin/master
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome -Dsauce=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="TestSuit.category" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NopCommerce1" />
+=======
+    <configuration name="TestSuit.userShouldAbleToRegisterSuccessfully (1)" type="TestNG">
+      <module name="NopCommerce1 - Copy (2)" />
+>>>>>>> origin/master
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NopComWebTest2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="NopComWebTest2" />
+      <option name="MAIN_CLASS_NAME" value="NopComWebTest2.TestSuit" />
+<<<<<<< HEAD
+      <option name="METHOD_NAME" value="category" />
+=======
+      <option name="METHOD_NAME" value="userShouldAbleToRegisterSuccessfully" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser-chrome  -Dsauce-true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuit.userShouldAbleToRegisterSuccessfully (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NopCommerce1 - Copy (2)" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="NopComWebTest2.*" />
@@ -149,7 +279,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="NopComWebTest2" />
       <option name="MAIN_CLASS_NAME" value="NopComWebTest2.TestSuit" />
-      <option name="METHOD_NAME" value="category" />
+      <option name="METHOD_NAME" value="userShouldAbleToRegisterSuccessfully" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -157,31 +287,174 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSuit.userShouldAbleToRegisterSuccessfully" type="TestNG" nameIsGenerated="true">
+      <module name="NopCommerce1 - Copy (2)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NopComWebTest2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="NopComWebTest2" />
+      <option name="MAIN_CLASS_NAME" value="NopComWebTest2.TestSuit" />
+      <option name="METHOD_NAME" value="userShouldAbleToRegisterSuccessfully" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome -Dsauce=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuit.userShouldAbleToRegisterSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NopCommerce1 - Copy (2)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NopComWebTest2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="NopComWebTest2" />
+      <option name="MAIN_CLASS_NAME" value="NopComWebTest2.TestSuit" />
+      <option name="METHOD_NAME" value="userShouldAbleToRegisterSuccessfully" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=firefox -Dsauce=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuit.userShouldAbleToRegisterSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NopCommerce1 - Copy (2)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NopComWebTest2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="NopComWebTest2" />
+      <option name="MAIN_CLASS_NAME" value="NopComWebTest2.TestSuit" />
+      <option name="METHOD_NAME" value="userShouldAbleToRegisterSuccessfully" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome -Dsauce=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuit.userShouldAbleToRegisterSuccessfully" type="TestNG" nameIsGenerated="true">
+      <module name="NopCommerce1 - Copy (2)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NopComWebTest2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="NopComWebTest2" />
+      <option name="MAIN_CLASS_NAME" value="NopComWebTest2.TestSuit" />
+      <option name="METHOD_NAME" value="userShouldAbleToRegisterSuccessfully" />
+      <option name="GROUP_NAME" value="" />
+>>>>>>> origin/master
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome -Dsauce=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+<<<<<<< HEAD
     <configuration name="TestSuit.guestUserShouldAbleToAddNewCommentOnNopCommerce" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NopCommerce1" />
+=======
+    <configuration name="TestSuit.userShouldAbleToRegisterSuccessfully" type="TestNG" nameIsGenerated="true">
+      <module name="NopCommerce1 - Copy (2)" />
+>>>>>>> origin/master
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="NopComWebTest2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="NopComWebTest2" />
       <option name="MAIN_CLASS_NAME" value="NopComWebTest2.TestSuit" />
+<<<<<<< HEAD
       <option name="METHOD_NAME" value="guestUserShouldAbleToAddNewCommentOnNopCommerce" />
+=======
+      <option name="METHOD_NAME" value="userShouldAbleToRegisterSuccessfully" />
+      <option name="GROUP_NAME" value="" />
+>>>>>>> origin/master
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome -Dsauce=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG.TestSuit.userShouldAbleToRegisterSuccessfully (1)" />
+      <item itemvalue="TestNG.TestSuit.userShouldAbleToRegisterSuccessfully" />
+      <item itemvalue="TestNG.TestSuit.userShouldAbleToCheckOutSuccessfully (1)" />
+      <item itemvalue="TestNG.TestSuit.userShouldAbleToCompareSuccessfully" />
+      <item itemvalue="TestNG.TestSuit.registeredUserShouldAbleToEmailAFriendSuccessfully" />
+      <item itemvalue="TestNG.TestSuit.userShouldAbleToRegisterSuccessfully (2)" />
+    </list>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="JUnit.RunTest" />
         <item itemvalue="TestNG.TestSuit.category" />
         <item itemvalue="TestNG.TestSuit.guestUserShouldAbleToAddNewCommentOnNopCommerce" />
         <item itemvalue="Cucumber java.Scenario: User can navigate to correct category page," />
         <item itemvalue="TestNG.TestSuit.alertHandling" />
+=======
+        <item itemvalue="TestNG.TestSuit.userShouldAbleToRegisterSuccessfully" />
+        <item itemvalue="TestNG.TestSuit.userShouldAbleToRegisterSuccessfully (2)" />
+        <item itemvalue="TestNG.TestSuit.registeredUserShouldAbleToEmailAFriendSuccessfully" />
+        <item itemvalue="TestNG.TestSuit.userShouldAbleToCompareSuccessfully" />
+        <item itemvalue="TestNG.TestSuit.userShouldAbleToCheckOutSuccessfully (1)" />
+>>>>>>> origin/master
       </list>
     </recent_temporary>
   </component>
@@ -235,6 +508,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1583193315475" />
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.userShouldAbleToRegisterSuccessfully_(2)" timestamp="1584453126134">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.userShouldAbleToRegisterSuccessfully_(2)/0.0.1366.728@0.0.1366.728" timestamp="1584453126134" />
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584455860178">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1584455860178" />
     <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1582749281501">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -243,14 +524,15 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="447" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1583192473494" />
-    <state x="479" y="223" width="408" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1583234622644">
+    <state x="479" y="223" width="408" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584452481376">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="479" y="223" width="408" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1583234622644" />
+    <state x="479" y="223" width="408" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1584452481376" />
     <state x="245" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582554889170">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="245" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1582554889170" />
+<<<<<<< HEAD
     <state x="413" y="110" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1584474368470">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -258,19 +540,32 @@
     <state x="324" y="0" key="CommitChangelistDialog2" timestamp="1583349635186">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+=======
+    <state x="324" y="0" key="CommitChangelistDialog2" timestamp="1583349635186">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+>>>>>>> origin/master
     <state x="324" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583349635186" />
     <state x="437" y="79" key="DetectedRootsChooserDialog" timestamp="1582299897216">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="437" y="79" key="DetectedRootsChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1582299897216" />
+<<<<<<< HEAD
     <state x="389" y="105" key="FileChooserDialogImpl" timestamp="1584359719715">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="389" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584359719715" />
+=======
+    <state x="389" y="105" key="FileChooserDialogImpl" timestamp="1584539307635">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="389" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584539307635" />
+>>>>>>> origin/master
     <state x="521" y="257" key="Github.ShareDialog" timestamp="1583349465922">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="521" y="257" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1583349465922" />
+<<<<<<< HEAD
     <state width="1323" height="257" key="GridCell.Tab.0.bottom" timestamp="1584543282094">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -288,25 +583,45 @@
     </state>
     <state width="1323" height="257" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584543282094" />
     <state width="1367" height="231" key="GridCell.Tab.1.bottom" timestamp="1583234632318">
+=======
+    <state width="1323" height="116" key="GridCell.Tab.0.bottom" timestamp="1584546301874">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="231" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583234632318" />
-    <state width="1367" height="231" key="GridCell.Tab.1.center" timestamp="1583234632318">
+    <state width="1323" height="116" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584546301874" />
+    <state width="1323" height="116" key="GridCell.Tab.0.center" timestamp="1584546301874">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="231" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1583234632318" />
-    <state width="1367" height="231" key="GridCell.Tab.1.left" timestamp="1583234632318">
+    <state width="1323" height="116" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584546301874" />
+    <state width="1323" height="116" key="GridCell.Tab.0.left" timestamp="1584546301874">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="231" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1583234632318" />
-    <state width="1367" height="231" key="GridCell.Tab.1.right" timestamp="1583234632318">
+    <state width="1323" height="116" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584546301874" />
+    <state width="1323" height="116" key="GridCell.Tab.0.right" timestamp="1584546301874">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="231" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1583234632318" />
+    <state width="1323" height="116" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584546301874" />
+    <state width="1323" height="222" key="GridCell.Tab.1.bottom" timestamp="1584469173498">
+>>>>>>> origin/master
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="222" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584469173498" />
+    <state width="1323" height="222" key="GridCell.Tab.1.center" timestamp="1584469173498">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="222" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1584469173498" />
+    <state width="1323" height="222" key="GridCell.Tab.1.left" timestamp="1584469173498">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="222" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1584469173498" />
+    <state width="1323" height="222" key="GridCell.Tab.1.right" timestamp="1584469173498">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="222" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1584469173498" />
     <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1583192366596">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="213" y="18" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1583192366596" />
+<<<<<<< HEAD
     <state x="431" y="74" key="RollbackChangesDialog" timestamp="1584197268738">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -315,6 +630,16 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584332787751" />
+=======
+    <state x="431" y="74" key="RollbackChangesDialog" timestamp="1584537835903">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="431" y="74" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1584537835903" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1584362430030">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584362430030" />
+>>>>>>> origin/master
     <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1583349654342">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -331,10 +656,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="460" y="155" key="git4idea.merge.GitMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1583349241767" />
+<<<<<<< HEAD
     <state x="65" y="0" key="new project wizard" timestamp="1583794971609">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1583794971609" />
+=======
+    <state x="65" y="0" key="new project wizard" timestamp="1584398192998">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1584398192998" />
+>>>>>>> origin/master
     <state x="435" y="285" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1583194978600">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -359,5 +691,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="405" y="275" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1366.728@0.0.1366.728" timestamp="1583352165763" />
+<<<<<<< HEAD
+=======
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/NopCommerce1___Copy__2_$TestSuit_userShouldAbleToRegisterSuccessfully__2_.ic" NAME="TestSuit.userShouldAbleToRegisterSuccessfully (2) Coverage Results" MODIFIED="1584452918359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>NopComWebTest2.*</FILTER>
+    </SUITE>
+>>>>>>> origin/master
   </component>
 </project>

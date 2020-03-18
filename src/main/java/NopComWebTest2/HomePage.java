@@ -26,8 +26,11 @@ public class HomePage extends Utils {
     private By _homePageMessage = By.xpath("//div[@class='topic-block-title']/h2");
     private String expected = "Welcome to our store";
     // private static WebElement computer = driver.findElement( By.linkText("Computers"));
+<<<<<<< HEAD
     LoadProp loadProp = new LoadProp();
     private  String category = "Computer";
+=======
+>>>>>>> origin/master
 
 
     public void verifyUserIsInHomePage() {
@@ -109,6 +112,7 @@ public class HomePage extends Utils {
 
 
 
+<<<<<<< HEAD
     public void mouseHoverOnCategory(String category)
 
     {
@@ -116,6 +120,13 @@ public class HomePage extends Utils {
         WebElement categoryName = driver.findElement(By.linkText(category));
         Action hover = builder.moveToElement(categoryName).build();
         hover.perform();
+=======
+    public static void mouseHover()
+    {   WebElement computer = driver.findElement( By.linkText("Computers"));
+        Actions builder = new Actions(driver);
+        Action mouseHover = builder.moveToElement(computer).build();
+
+>>>>>>> origin/master
 
     }
 

@@ -40,6 +40,7 @@ public class TestSuit extends BaseTest {
         // registrationPage.verifyFirstNameIsVisible();
         // registrationPage.waitUntilDisplayRegisterButton();
         registrationPage.userEntersRegistrationDetails();
+        registrationPage.clickOnRegisterButton();
         registrationResultPage.verifyUserSeeRegistrationSuccessMessage();
 
 
@@ -194,6 +195,7 @@ public class TestSuit extends BaseTest {
             }
         }
         Assert.assertTrue(true, "not sorted in high to low");
+<<<<<<< HEAD
 
     }
 
@@ -212,7 +214,25 @@ public class TestSuit extends BaseTest {
     {
         //homepage.mouseHoverOnCategory();
         subCategoryPage.clickOnSubCategory("Desktops");
+=======
 
+    }
+
+    @Test
+
+    public void alertHandling()
+    {
+        //clickOnElement(By.xpath("//input[@class='button-1 search-box-button']"));
+        //driver.switchTo().alert().accept();
+        driver.getWindowHandles();
+    }
+
+    @Test
+>>>>>>> origin/master
+
+    public void category()
+    {
+        homepage.mouseHover();
     }
 }
 
